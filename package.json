@@ -1,6 +1,6 @@
 {
-  "name": "gulp-purifycss",
-  "version": "0.2.0",
+  "name": "gulp-purify-css",
+  "version": "0.1.0",
   "description": "Remove unnecessary css",
   "main": "index.js",
   "scripts": {
@@ -8,25 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/purifycss/gulp-purifycss.git"
+    "url": "https://github.com/danielpost/gulp-purify-css.git"
   },
   "keywords": [
     "gulpplugin",
     "css",
     "purify"
   ],
-  "author": "Phoebe Li, Matthew Rourke, Kenny Tran",
+  "author": "Phoebe Li, Matthew Rourke, Kenny Tran, Daniel Post",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/purifycss/gulp-purifycss/issues"
+    "url": "https://github.com/danielpost/gulp-purify-css/issues"
   },
-  "homepage": "https://github.com/purifycss/gulp-purifycss",
+  "homepage": "https://github.comdanielpost/gulp-purify-css",
   "devDependencies": {
   },
   "dependencies": {
-    "glob": "^5.0.10",
-    "through2": "^2.0.0",
-    "gulp-util": "^3.0.5",
-    "purify-css": "^1.0.8"
+    "glob": "^7.1.2",
+    "through2": "^2.0.3",
+    "gulp-util": "^3.0.8",
+    "purify-css": "^1.2.6"
   }
 }
