@@ -6,7 +6,7 @@ Clean unnecessary CSS with [PurifyCSS](https://github.com/purifycss/purifycss)
 
 <table>
 <tr>
-<td>Package</td><td>gulp-purifycss</td>
+<td>Package</td><td>gulp-purify-css</td>
 </tr>
 <tr>
 <td>Description</td>
@@ -21,7 +21,7 @@ Clean unnecessary CSS with [PurifyCSS](https://github.com/purifycss/purifycss)
 ## Usage
 
 ```js
-var purify = require('gulp-purifycss');
+var purify = require('gulp-purify-css');
 
 gulp.task('css', function() {
   return gulp.src('./public/app/example.css')
